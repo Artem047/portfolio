@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/log.ico" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
+    <title>Home</title>
+</head>
+<body>
+        <div id="header">
+            <div class="nav__text">
+                <p>
+                    Hello, I'm <span>Artem Glebov</span>. <br>
+                    I'm a web-developer.
+                </p> <br>
+                <a href="#about">
+                <button class="custom-btn btn-3"><span>View my work</span></button></a>
+            </div>
+                <a href="#about">
+                    <div class="arrow one">
+                            <img src="images/strelka.png" alt="">
+                        </div>
+                        <div class="arrow two">
+                            <img src="images/strelka.png" alt="">
+                        </div>
+                    </div>
+               </a>
+                <div class="head__con">
+                    <ul class="nav__con">
+                        <li><a href="#header">HOME</a></li>
+                        <li><a href="#about" class="select__con">ABOUT</a></li>
+                        <li><a href="#portfolio">PORTFOLIO</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                    </ul>
+                </div>
+        </div> 
+        <div id="about">
+            <div class="about">
+                <h1>ABOUT</h1> <hr size="6" color="gray">
+                <ul class="charact__about">
+                    <li>
+                        <img src="images/comm.png" alt="" width="100">
+                        <p>
+                            <b>Sociability</b><br>
+                            The ability to find a common language with people
+                        </p>
+                    </li>
+                    <li>
+                        <img src="images/otvet.png" alt="" width="150">
+                        <p>
+                            <b>Responsibility</b>
+                            Conscientious attitude to work
+                        </p>
+                    </li>
+                    <li>
+                        <img src="images/overwhelmed.png" alt="" width="120">
+                        <p>
+                            <b>Stress tolerance</b>
+                            Maintaining self-control in conflict situations
+                        </p>
+                    </li>
+                </ul>
+                <div class="about__me">
+                    <div class="me__text_photo">
+                        <ul>
+                            <li>
+                                <img src="images/me.jpg" alt="">
+                            </li>
+                        </ul>
+                        <ul class="text__about__me">
+                            <li>
+                                <h2>
+                                    Who's this guy?
+                                </h2>
+                                <p>
+                                    I am a novice front-end developer, I know the basic languages HTML, CSS. I am studying at the college - "KMB No. 4" with a degree in applied computer science. Also, in addition to the layout of sites, he worked with the Unity game engine.
+                                </p>
+                            </li>
+                        </ul>
+                        <div class="line__lang">
+                            <p>HTML</p>
+                            <li>
+                                <b>70%</b>
+                            </li> 
+                            <br>
+                            <p>CSS</p>
+                            <li>
+                                <b>70%</b>
+                            </li> <br>
+                            <p>JavaScript</p>
+                            <li>
+                                <b>30%</b>
+                            </li> <br>
+                            <p>Figma</p>
+                            <li>
+                                <b>70%</b>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="portfolio">
+            <div class="portfolio">
+                <h1>PROJECTS</h1> <hr size="6" color="gray">
+                <div class="site">
+                    <marquee direction="left" scrollamount="15">
+                        <img src="./images/site1.png" alt="">
+                        <img src="./images/site2.png" alt="">
+                        <img src="./images/site3.png" alt="">
+                        <img src="./images/site4.png" alt="">
+                        <img src="./images/site5.png" alt="">
+                    </marquee>
+                </div>
+                <!-- <div class="sel_site">
+                    <div class="img_site">
+                        <img src="./images/site1.png" alt="">
+                        <img src="./images/site4.png" alt="">
+                        <img src="./images/site2.png" alt="">
+                    </div>
+                    <div class="btn_site">
+                        <a href="works/3 clicks sellers/index.html" target="_blank"><button type="submit">3 clicks sellers</button></a>
+                        <a href="works/HDEP-master/index.html" target="_blank"><button type="submit">HDEP-master</button></a>
+                        <a href="works/pricing/index.html" target="_blank"><button type="submit">Pricing</button></a>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <div id="contact">
+                <div class="contact__top">
+                    <h1>CONTACT</h1> <hr size="6" color="gray">
+                    <h2>Have a question or want to work together?</h2>
+                    <form action="">
+                        <label for="Name">Name</label> <br>
+                        <input type="text" name="name" id="input" placeholder="Your name" required> <br>
+                        <label for="Name">Email</label> <br>
+                        <input type="email" name="email" id="input" placeholder="Enter email" required> <br> <br>
+                        <textarea name="text" id="" cols="40" rows="7" placeholder="Your message" required></textarea> <br>
+                        <button type="submit" class="submit_form">SUBMIT</button>
+                    </form>
+                    <a href="#header">
+                        <img src="./images/up.png" alt="" class="up" id="">
+                    </a>
+                </div>
+                <div class="contact_bottom">
+                    <div class="my_contact_icon">
+                        <a href="https://t.me/agleboov" target="_blank" class="img1"></a>
+                        <a href="https://hh.ru/resume/0280e604ff0b8fdd0a0039ed1f303764526569?from=share_ios                        " target="_blank" class="img2"></a>
+                        <a href="https://github.com/Artem047" target="_blank" class="img3"></a>
+                    </div>
+                    <p>GLEBOV ARTEM <span>©2022</span></p>
+                </div>
+        </div>
+</body>
+</html>
